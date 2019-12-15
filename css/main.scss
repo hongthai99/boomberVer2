@@ -47,12 +47,13 @@ nav {
 }
   
 .cta {
-    padding: 9px 25px;
+    padding: 9px 30px;
     background-color: #1C3C5A;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    text-decoration: None;
 }
   
 .cta:hover {
@@ -172,4 +173,42 @@ nav {
         transform: scaleX(1);
     }
 }
+.container, .container-fluid{
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.container-fluid{
+    height: auto !important;
+}
+
+.card-shadow{
+    height: auto !important;
+    background-color: #1C3C5A;
+    .card-header{
+        background-color: #fff;
+        .btn-success {
+            padding: 9px 50px;
+            color: #FFC400;
+            font-weight: bold;
+            background-color: #1C3C5A;
+            border: none;
+            border-radius: 50px;
+            
+        }
+    }
+    .card-body{
+        height: auto !important;
+        h1{
+            font-weight: bold;
+            font-size: 25px;   
+            color: #FFC400;
+        }
+        
+    }
+}
+.table-bordered{
+    color: #F8F3E1;
+}
+
 
