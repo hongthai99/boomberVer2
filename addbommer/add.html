@@ -26,18 +26,33 @@
         <p onclick="openNav()" class="menu cta">Menu</p>
 
     </nav>
-    <div>
+    <!-- Cai nay là insert voi show data-->
+    <div align="center">
+        <h1>Insert Information</h1>
+    
         <form>
-            Phone: <input name="Phone" id="Phone">
-            <br>
-            Name: <input name="Name" id="Name">
-            <br>
-            Address: <input  name="Address" id="Address">
-            <br>
-            Description: <input  name="Description" id="Description">
-          </form>
-    </div>
-    <input type="button" onclick="insert_value()" value="Insert"></input>
-
+          Phone: <input name="Phone" id="Phone">
+          <br>
+          Name: <input name="Name" id="Name">
+          <br>
+          Address: <input  name="Address" id="Address">
+          <br>
+          Description: <input  name="Description" id="Description">
+        </form>
+    
+        <div id="loader"></div>
+    
+        <p id="re"></p>
+    
+        <input type="button" onclick="insert_value()" value="Insert"></input>
+        <input type="button" onclick="read_value()" value="Show" />
+        <input type="button" onclick="update_value()" value="Update" />
+        <input type="button" onclick="delete_value()" value="Delete" />
+        <br>
+        
+        <div id="showData"></div>
+      </div>
+    </body>
+    <!-- Het cai doạn này mà không biết show sao hu -->
 </body>
 </html>
