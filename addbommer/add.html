@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/google_connection.js"></script>
     <title>Add Bommer</title>
 </head>
 <body>
@@ -25,6 +26,18 @@
         <p onclick="openNav()" class="menu cta">Menu</p>
 
     </nav>
+    <div>
+        <form>
+            Phone: <input name="Phone" id="Phone">
+            <br>
+            Name: <input name="Name" id="Name">
+            <br>
+            Address: <input  name="Address" id="Address">
+            <br>
+            Description: <input  name="Description" id="Description">
+          </form>
+    </div>
+    <input type="button" onclick="insert_value()" value="Insert"></input>
 
 </body>
 </html>
