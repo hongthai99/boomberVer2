@@ -328,4 +328,30 @@ nav {
 .table-bordered {
   color: #F8F3E1;
 }
+
+.inputform h1 {
+  color: #1C3C5A;
+  padding-left: 6rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+
+.inputform form {
+  color: #FFC400;
+  font-weight: bold;
+  padding-left: 40rem;
+}
+
+.inputform form .Phone {
+  padding-left: 1rem;
+}
+
+.inputform input {
+  padding: 9px 30px;
+  background-color: #1C3C5A;
+  color: #FFC400;
+  border: none;
+  font-weight: bold;
+  border-radius: 50px;
+}
 /*# sourceMappingURL=main.css.map */

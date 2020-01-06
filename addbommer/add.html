@@ -27,32 +27,31 @@
 
     </nav>
     <!-- Cai nay là insert voi show data-->
-    <div align="center">
-        <h1>Insert Information</h1>
+    <div class="inputform" >
+        <h1 class="TextInsert">Add Boommer</h1>
     
-        <form>
-          Phone: <input name="Phone" id="Phone">
+        <form class="form">
+          Phone: <input class="Phone" type="text" name="Phone" placeholder="Boommer Phone Number" id="Phone">
           <br>
-          Name: <input name="Name" id="Name">
+          Name: <input type="text" name="Name" placeholder="Name of Boommer" id="Name">
           <br>
-          Address: <input  name="Address" id="Address">
+          Address: <input type="text"  name="Address" placeholder="Address" id="Address">
           <br>
-          Description: <input  name="Description" id="Description">
+          Description: <input type="text" name="Description" placeholder="Description" id="Description">
         </form>
     
         <div id="loader"></div>
     
         <p id="re"></p>
     
-        <input type="button" onclick="insert_value()" value="Insert"></input>
-        <input type="button" onclick="read_value()" value="Show" />
-        <input type="button" onclick="update_value()" value="Update" />
-        <input type="button" onclick="delete_value()" value="Delete" />
+        <input type="button" onclick="insert_value()" value="Add Boommer"></input>
+        <input type="button" onclick="read_value()" value="Show"/>
+
         <br>
         
         <div id="showData"></div>
       </div>
-    </body>
+      </div>
     <!-- Het cai doạn này mà không biết show sao hu -->
 </body>
 </html>
