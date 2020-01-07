@@ -212,6 +212,8 @@ nav {
 }
 
 .inputform{
+    position: absolute;
+    top: 10%;
     h1{
         color: #1C3C5A;
         padding-left: 6rem;
@@ -219,20 +221,37 @@ nav {
 
         font-weight: bold;
     }
-    form{
-        color: #FFC400;
-        font-weight: bold;
-        padding-left: 40rem;
-        .Phone {
-            padding-left: 1rem;
-        }
-    }
-    input{
-        padding: 9px 30px;
-        background-color: #1C3C5A;
-        color: #FFC400;
-        border: none;
-        font-weight: bold;
-        border-radius: 50px;
-    }
+
+}
+.contact-form{
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 30px;
+    border-radius: 30px;
+    color: #1C3C5A;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFC400;
+}
+.buttom-input{
+    margin: 0 70rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #1C3C5A;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: None;
+    color: #FFC400;
+    font-weight: bolder;
+}
+.contact-form .PhoneBoomber, .NameBoomber,  .AddressBoomber, 
+.Description {
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 1px solid #1C3C5A;
+    background: transparent;
+    font-weight: bold;
+    color: #1C3C5A;
 }
